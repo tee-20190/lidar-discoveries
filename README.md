@@ -10,7 +10,7 @@ this page reports what they said, including the cases where they said no.
 |---|---|
 | Locations submitted to heritage authorities | **178**, to 22 authorities in 5 countries |
 | Locations with a written assessment so far | **90** (80 have had no reply yet; 8 acknowledged or pending) |
-| **Previously unknown archaeological sites, confirmed by the responsible archaeologist** | **4** (three burial mounds and one barrow field, Lower Saxony, Germany) |
+| **Previously unknown archaeological sites, confirmed by the responsible archaeologist** | **4** (three burial mounds and one barrow field, Lower Saxony, Germany; one already has an official site number) |
 | Previously unknown probable site, inspected on the ground, not yet confirmed | 1 |
 | Completed additions to official heritage records | 16 (one of them is a confirmed site above) |
 | All documented positive outcomes | 28 |
@@ -50,7 +50,14 @@ site number. These are assessments by qualified people, not excavation results, 
    looked at historical imagery or visited the site.
 
 The engineering and analysis were carried out by AI agents (Anthropic Claude models and OpenAI Codex) working in one
-project repository under the owner's direction. People made the archaeological judgments. [METHOD.md](METHOD.md) has
+project repository under the owner's direction. People made the archaeological judgments.
+
+## Scale
+
+All of this was done by one person working with AI agents, using only public terrain data, public detector weights
+and ordinary email, in about two months from the first submission (10 September 2026) to this release. The detectors and
+weights are public. The bottleneck is not finding candidates but the time of the archaeologists who assess them; the
+point of this record is to show what a single person can responsibly put in front of them, and what comes back. [METHOD.md](METHOD.md) has
 the details and what each step does and does not show.
 
 ## What this does not show
@@ -64,19 +71,35 @@ the details and what each step does and does not show.
   This is why every claim in this repository rests on the authority's own check.
 - **No dates or functions are claimed.** "Burial mound" is the assessing archaeologist's interpretation of the form.
 
-## Why exact locations are not published
+## How to verify every claim
 
-Coordinates, maps and images precise enough to find a site are withheld. Unprotected burial mounds can be damaged by
-illegal metal detecting and digging, and decisions about publishing sites belong to the heritage authorities. Anyone
-with a legitimate research need can ask the relevant authority. Personal names of the assessing archaeologists are also
-omitted; the authorities are named.
+Each confirmed site has its own page with:
+
+- the **name and role of the archaeologist** who assessed it, and their authority;
+- their **written reply, verbatim in German**, with an English translation;
+- the **label under which we submitted it**, so the authority can be asked about that exact item;
+- the **official site number**, where one has been issued (D04: Liebenau-Binnen FStNr. 13);
+- a **150 m LiDAR hillshade** of the mound, made from public terrain data anyone can download;
+- a **SHA-256 commitment** to the exact submitted coordinates (next section).
+
+The authorities' contact details are on their public websites. They, not we, are the source of truth.
+
+## Why exact coordinates are not published
+
+The location of every site is given to municipality level, as the official Lower Saxony find chronicle (Fundchronik)
+does. The exact coordinates are withheld. These are unprotected burial mounds in fields and woodland, and illegal
+digging and metal detecting at newly publicised sites is a real and recurring problem. Their exact positions are held by
+the responsible authorities, which can share them with researchers.
+
+So that the submitted points can still be proven later, each site page carries a SHA-256 hash of the exact submitted
+coordinates plus a random salt. When the coordinates are released, the salted string can be checked against the hash.
 
 ## Contents
 
 | Path | Content |
 |---|---|
 | [`CONTENTS.md`](CONTENTS.md) | Catalogue of all 28 positive outcomes, by tier |
-| [`discoveries/`](discoveries/) | One page for each confirmed site, plus the field-inspected probable site |
+| [`discoveries/`](discoveries/) | One page for each confirmed site, plus the field-inspected probable site: assessor, verbatim reply, LiDAR view, coordinate commitment |
 | [`FUNNEL.md`](FUNNEL.md) | Every outcome of the 178 submissions, negatives included |
 | [`VERIFICATION.md`](VERIFICATION.md) | Tier definitions and counting rules |
 | [`METHOD.md`](METHOD.md) | Data, detectors, screening and assessment |

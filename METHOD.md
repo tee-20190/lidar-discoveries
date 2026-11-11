@@ -55,6 +55,8 @@ detectors are much better at upstanding mounds than ploughed-out ones.
 
 ## Not included
 
-- Coordinates, site images and per-location detector scores (site protection).
-- Correspondence (it belongs to the authorities and their staff).
+- Exact coordinates (site protection; salted SHA-256 commitments are on each site page) and per-location detector
+  scores.
+- Correspondence other than the assessing archaeologists' replies about the five Lower Saxony sites, which are quoted
+  verbatim on their pages without contact details.
 - Total compute and staff time per result: not yet tallied.

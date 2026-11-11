@@ -10,8 +10,8 @@ As of 11 November 2026 the project has submitted **178 locations** to **22 herit
 | Netherlands | 9 |
 | Denmark | 9 |
 
-The first submissions went out in early October 2026; the first written outcome arrived on 2 October and the first
-confirmed previously unknown sites on 29 October.
+The first submission went out on 10 September 2026 and the latest counted here on 6 November. The first positive
+outcome arrived on 2 October and the first confirmed previously unknown sites on 29 October.
 
 ## Where each location stands
 
