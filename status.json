@@ -1,0 +1,110 @@
+{
+  "as_of": "2026-11-11",
+  "tiers": {
+    "A": {
+      "meaning": "Previously unknown archaeological site, confirmed by the responsible archaeologist",
+      "ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04"
+      ],
+      "count": 4
+    },
+    "B": {
+      "meaning": "Previously unknown, field-inspected, probable archaeological site (not yet confirmed)",
+      "ids": [
+        "P01"
+      ],
+      "count": 1
+    },
+    "C": {
+      "meaning": "Added to an official heritage record (not a confirmed new archaeological site)",
+      "ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R15"
+      ],
+      "count": 15
+    },
+    "D": {
+      "meaning": "Other documented positive outcome (record absence confirmed, research list, offered addition, comment)",
+      "ids": [
+        "O01",
+        "O02",
+        "O03",
+        "O04",
+        "O05",
+        "O06",
+        "O07",
+        "O08"
+      ],
+      "count": 8
+    }
+  },
+  "completed_official_record_additions": {
+    "count": 16,
+    "ids": [
+      "D04",
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06",
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ]
+  },
+  "submissions": {
+    "locations_submitted": 178,
+    "custodians": 22,
+    "by_country": {
+      "France": 14,
+      "England": 64,
+      "Germany": 82,
+      "Netherlands": 9,
+      "Denmark": 9
+    },
+    "by_response_state": {
+      "verdict": 90,
+      "offer_pending": 2,
+      "acknowledged_only": 6,
+      "no_reply": 80
+    },
+    "by_latest_outcome": {
+      "already_recorded": 14,
+      "offer_pending": 2,
+      "modern_or_recent": 13,
+      "other": 15,
+      "record_added_new": 16,
+      "natural_or_geological": 1,
+      "landscaping_or_planting": 6,
+      "acknowledged_no_verdict": 6,
+      "comment_added_existing": 1,
+      "undetermined_other": 17,
+      "research_list": 3,
+      "pending_no_reply": 80,
+      "probable_archaeological": 4
+    }
+  }
+}

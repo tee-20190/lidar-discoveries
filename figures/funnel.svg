@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="330" viewBox="0 0 980 330" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="20" y="30" font-size="18" font-weight="bold" fill="#1d2733">Outcomes of 178 LiDAR locations submitted to 22 heritage authorities (as of 11 Nov 2026)</text>
+<text x="318" y="72.0" font-size="14" text-anchor="end" fill="#1d2733">Locations submitted</text>
+<rect x="330" y="50" width="560.0" height="34" rx="3" fill="#8a9bb0"/>
+<text x="898.0" y="73.0" font-size="16" font-weight="bold" fill="#1d2733">178</text>
+<text x="318" y="120.0" font-size="14" text-anchor="end" fill="#1d2733">Written assessment received</text>
+<rect x="330" y="98" width="283.1" height="34" rx="3" fill="#6f86a3"/>
+<text x="621.1" y="121.0" font-size="16" font-weight="bold" fill="#1d2733">90</text>
+<text x="318" y="168.0" font-size="14" text-anchor="end" fill="#1d2733">Documented positive outcome</text>
+<rect x="330" y="146" width="88.1" height="34" rx="3" fill="#4f7396"/>
+<text x="426.1" y="169.0" font-size="16" font-weight="bold" fill="#1d2733">28</text>
+<text x="318" y="216.0" font-size="14" text-anchor="end" fill="#1d2733">Added to an official heritage record</text>
+<rect x="330" y="194" width="50.3" height="34" rx="3" fill="#2f5f8a"/>
+<text x="388.3" y="217.0" font-size="16" font-weight="bold" fill="#1d2733">16</text>
+<text x="318" y="264.0" font-size="14" text-anchor="end" fill="#1d2733">Confirmed previously unknown archaeological site</text>
+<rect x="330" y="242" width="12.6" height="34" rx="3" fill="#b5462f"/>
+<text x="350.6" y="265.0" font-size="16" font-weight="bold" fill="#1d2733">4</text>
+<text x="20" y="308" font-size="12" fill="#556270">80 locations have had no reply yet; no reply is not a negative result. Categories overlap: a confirmed site can also be a record addition.</text>
+</svg>
