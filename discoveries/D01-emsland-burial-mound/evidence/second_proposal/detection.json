@@ -1,0 +1,19 @@
+[
+ {
+  "stage": "S_D + PROX pool, shortlist",
+  "record": {
+   "reader_verdict": "SENDABLE",
+   "final": "SENDABLE",
+   "drop_class": null,
+   "decision": "SEND",
+   "hold_reasons": [],
+   "family": "QUARRY-SPOIL",
+   "status": "OPEN-WEAK",
+   "tier": "A",
+   "terrain": "T2",
+   "district": "Emsland",
+   "mean_probability": 0.9564185738563538,
+   "model": "D_101"
+  }
+ }
+]

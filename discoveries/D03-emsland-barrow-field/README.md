@@ -65,6 +65,39 @@ omissions and `[Fundstelle entfernt]` marks the names and numbers of already kno
 >
 > Kind regards, Thomas Kassens (district archaeologist)
 
+## Everything we looked at
+
+The full internal evidence card is in [`evidence/`](evidence/) ([file list](evidence/README.md)): every image and
+record the project used to decide whether to submit this location, plus what was sent to the authority.
+Coordinates are removed; nothing else is edited.
+
+**LiDAR terrain (LGLN DGM1, 1 m).** Hillshade at 150 m and 500 m, and a local relief model:
+
+![DGM1 hillshade 150 m and 500 m](evidence/lidar_dgm1_hillshade_150m_and_500m.png)
+
+<img src="evidence/lidar_dgm1_local_relief_150m.png" width="360" alt="Local relief model, 150 m">
+
+**Orthophotos (LGLN DOP20), every year available**, used to rule out modern heaps, buildings and earthworks:
+
+| 2014-05-18 | 2017-05-28 | 2020-04-05 | 2023-06-03 | 2025-03-08 | 2025-03-08 |
+|---|---|---|---|---|---|
+| <img src="evidence/dop20_2014-05-18.jpg" width="150"> | <img src="evidence/dop20_2017-05-28.jpg" width="150"> | <img src="evidence/dop20_2020-04-05.jpg" width="150"> | <img src="evidence/dop20_2023-06-03.jpg" width="150"> | <img src="evidence/dop20_2025-03-08.jpg" width="150"> | <img src="evidence/dop20cir_2025-03-08.jpg" width="150"> |
+
+**The model reader's review before submission** (verbatim extracts from [`reader_review.json`](evidence/reader_review.json)):
+
+> A small discrete round mound about 8 m across and about 0.9 m high in a conifer plantation on flat ground crossed by fine parallel furrows. Several similar small round highs lie within about 100 m, including a ring-shaped mound with a central hollow about 35 m to the south. No modern object is visible at the point in five aerial flights from 2014 to 2025. No registered burial mound lies within 300 m.
+
+Open alternative it asked the archaeologist to weigh: *Could this small mound and its neighbours be natural sand hummocks, like the uneven ground to the south-west, or heaps left from clearing or planting, rather than a group of burial mounds?*
+
+Most likely non-archaeological explanation it considered: `NAT` (OPEN-WEAK); verdict `SENDABLE`.
+
+**Detector output** ([`detection.json`](evidence/detection.json)): model `D_101`; mean probability 0.951; area 399 m², roundness 0.95; nearest registered burial mound 1770 m away in the public register snapshot.
+
+**What the authority received.** The location list (coordinates removed: [`submitted_row.json`](evidence/submitted_row.json)) and, on 2 November,
+detail maps of the barrow field (coordinate labels removed):
+
+![Barrow field detail 600 m](evidence/submitted_detail_600m.png)
+
 ## What the assessment does and does not establish
 
 Written confirmation by the district archaeologist that it is a previously unknown barrow field. Counted as one site. No field visit, excavation, date or record number reported.

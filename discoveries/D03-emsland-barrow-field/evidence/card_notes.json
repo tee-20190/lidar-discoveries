@@ -1,0 +1,44 @@
+{
+ "id": "LSD-442ba2",
+ "lidar": {
+  "source": "LGLN DGM1 1 m (CC BY 4.0), newest delivery per square (LGLN index tiles, same rule as the decode mosaic)",
+  "slrm_centre15m": {
+   "max": 0.94,
+   "min": -0.43,
+   "mean": 0.08
+  },
+  "void_share_close": 0.0,
+  "epochs": [],
+  "panel": "lidar/dgm1_panel.png",
+  "slrm": "lidar/dgm1_slrm_150m.png"
+ },
+ "imagery": {
+  "source": "LGLN DOP20 (20 cm), CC BY 4.0",
+  "window_m": 160,
+  "dates": [
+   "2014-05-18",
+   "2017-05-28",
+   "2020-04-05",
+   "2023-06-03",
+   "2025-03-08"
+  ],
+  "empty": [],
+  "errors": [],
+  "cir": "2025-03-08",
+  "files": "dop/dop20_<date>.png, dop/dop20cir_<date>.png"
+ },
+ "messtischblatt": "UNAVAILABLE: no georeferenced sheet covers the point",
+ "osm": {
+  "within_30m_context": [],
+  "forest_tags": [
+   "landuse=forest"
+  ],
+  "containing_landcover": [
+   "landuse=forest"
+  ],
+  "tagged_objects_in_reply": []
+ },
+ "reader_prompts": [],
+ "register_within_300m": "none",
+ "register_note": "public Denkmalatlas Grabhügel snapshot of 2026-10-05 only (the API was in maintenance; other monument types are not in it). Selection removed every candidate with a registered Grabhügel within 60 m."
+}

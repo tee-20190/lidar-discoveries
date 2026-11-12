@@ -1,0 +1,50 @@
+{
+ "id": "LSD-ab6af6",
+ "lidar": {
+  "source": "LGLN DGM1 1 m (CC BY 4.0), newest delivery per square (decode mosaic)",
+  "slrm_centre15m": {
+   "max": 1.59,
+   "min": -0.46,
+   "mean": 0.25
+  },
+  "void_share_close": 0.0,
+  "epochs": [],
+  "panel": "lidar/dgm1_panel.png",
+  "slrm": "lidar/dgm1_slrm_150m.png"
+ },
+ "imagery": {
+  "source": "LGLN DOP20 (20 cm), CC BY 4.0",
+  "window_m": 160,
+  "dates": [
+   "2014-03-20",
+   "2017-03-25",
+   "2020-03-28",
+   "2023-04-05",
+   "2025-04-27"
+  ],
+  "empty": [],
+  "errors": [],
+  "cir": "2025-04-27",
+  "files": "dop/dop20_<date>.png, dop/dop20cir_<date>.png"
+ },
+ "messtischblatt": [
+  {
+   "sheet": "Meßtischblatt 1872 : Plantlünne, 1897",
+   "year": "1897",
+   "file": "mtb/mtb_1897_10004066.png"
+  }
+ ],
+ "osm": {
+  "within_30m_context": [],
+  "forest_tags": [
+   "landuse=forest"
+  ],
+  "containing_landcover": [
+   "landuse=forest"
+  ],
+  "tagged_objects_in_reply": []
+ },
+ "reader_prompts": [],
+ "register_within_300m": "none",
+ "register_note": "public Denkmalatlas Grabhügel snapshot of 2026-10-05 only (the API was in maintenance; other monument types are not in it). Selection removed every candidate with a registered Grabhügel within 60 m."
+}

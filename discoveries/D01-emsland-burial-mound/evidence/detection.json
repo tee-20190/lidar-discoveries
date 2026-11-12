@@ -1,0 +1,14 @@
+[
+ {
+  "stage": "pool 2 (D1 detector run)",
+  "record": {
+   "district": "Emsland",
+   "selected_by": "top",
+   "score": 0.9999942779541016,
+   "mean_probability": 0.9583041071891785,
+   "area_m2": 466.75,
+   "roundness": 0.941,
+   "nearest_record_m": 1932.1
+  }
+ }
+]

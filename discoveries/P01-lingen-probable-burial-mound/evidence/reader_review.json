@@ -1,0 +1,99 @@
+{
+ "checked_utc": "2026-10-26T20:52:38Z",
+ "reader": "claude-opus-5-5 (general-purpose subagent)",
+ "feature": {
+  "present": true,
+  "form": "discrete round, steep-sided dome with a slightly lower surrounding ring in the SLRM; isolated in a woodland strip",
+  "size_m_approx": 15,
+  "relief": "about 1.5 m (SLRM centre max 1.59 m)"
+ },
+ "lidar_epochs": "none",
+ "imagery": [
+  {
+   "file": "dop/dop20_2014-03-20.png",
+   "date": "2014-03-20",
+   "reading": "conifer stand over centre; dual carriageway and junction about 30-40 m S; arable field E; no object at centre"
+  },
+  {
+   "file": "dop/dop20_2017-03-25.png",
+   "date": "2017-03-25",
+   "reading": "conifer stand unchanged; nothing at centre"
+  },
+  {
+   "file": "dop/dop20_2020-03-28.png",
+   "date": "2020-03-28",
+   "reading": "conifer stand unchanged; nothing at centre"
+  },
+  {
+   "file": "dop/dop20_2023-04-05.png",
+   "date": "2023-04-05",
+   "reading": "conifer stand unchanged; nothing at centre"
+  },
+  {
+   "file": "dop/dop20_2025-04-27.png",
+   "date": "2025-04-27",
+   "reading": "conifer stand; nothing at centre"
+  },
+  {
+   "file": "dop/dop20cir_2025-04-27.png",
+   "date": "2025-04-27",
+   "reading": "continuous vegetation over centre; no bare ground"
+  }
+ ],
+ "land_cover": "conifer woodland strip between a main road and arable (OSM landuse=forest)",
+ "verdict": {
+  "verdict": "SENDABLE"
+ },
+ "drop_class": null,
+ "mundane": {
+  "family": "QUARRY-SPOIL",
+  "status": "OPEN-WEAK",
+  "runner_up": {
+   "family": "NAT",
+   "status": "OPEN-WEAK"
+  },
+  "discriminator": [
+   {
+    "family": "QUARRY-SPOIL",
+    "slot": "first edition Messtischblatt 1897",
+    "date": "1897",
+    "reading": "conifer woodland at the point beside the road; no pit, quarry or building symbol",
+    "separates": false
+   }
+  ]
+ },
+ "cited_sources": [
+  {
+   "file": "lidar/dgm1_slrm_150m.png",
+   "reading": "bright round dome about 15 m across at the cross, with a darker surrounding ring"
+  },
+  {
+   "file": "lidar/dgm1_panel.png",
+   "reading": "smooth round mound in a wood strip 25-40 m N of a road embankment and W of a drainage ditch; irregular hummocky ground about 200 m NW; another round mound about 150 m SW across the road"
+  },
+  {
+   "file": "mtb/mtb_1897_10004066.png",
+   "reading": "conifer woodland; road already present to the S"
+  },
+  {
+   "file": "dop/dop20_2014-03-20.png",
+   "reading": "no modern object at centre; dual carriageway junction nearby"
+  }
+ ],
+ "description": "A smooth, round, steep-sided mound about 15 m across and about 1.5 m high in a conifer strip close to a main road junction, with a faint lower ring around it in the local relief model. Woodland on the 1897 Messtischblatt.",
+ "alt_question": "Could this be a spoil heap from road or ditch construction next to the junction, or a natural sand hummock, rather than a burial mound?",
+ "facts": [
+  {
+   "statement": "No registered Grabhuegel within 300 m in the snapshot",
+   "source": "NOTES.json register_within_300m",
+   "date": "2026-10-05"
+  },
+  {
+   "statement": "Woodland at the point on the 1897 Messtischblatt",
+   "source": "mtb/mtb_1897_10004066.png",
+   "date": "1897"
+  }
+ ],
+ "limitations": "No older DGM1 epoch; canopy hides the ground in every frame; one Messtischblatt (1897), georeferencing offset unmeasured; road works history not checked.",
+ "audit": null
+}

@@ -1,0 +1,96 @@
+{
+ "checked_utc": "2026-10-26T20:53:17Z",
+ "reader": "claude-opus-5-5",
+ "feature": {
+  "present": true,
+  "form": "isolated round domed mound on a gentle slope in woodland",
+  "size_m_approx": 12,
+  "relief": "about 0.9 m (SLRM centre max 0.92 m)"
+ },
+ "lidar_epochs": "none",
+ "imagery": [
+  {
+   "file": "dop/dop20_2013-07-08.png",
+   "date": "2013-07-08",
+   "reading": "Closed broadleaf canopy; nothing at ground."
+  },
+  {
+   "file": "dop/dop20_2016-07-20.png",
+   "date": "2016-07-20",
+   "reading": "Closed canopy; small brush pile about 25 m E; no works at the cross."
+  },
+  {
+   "file": "dop/dop20_2019-04-07.png",
+   "date": "2019-04-07",
+   "reading": "Leaf-off broadleaf wood with conifer group W; leaf litter; no heap or structure."
+  },
+  {
+   "file": "dop/dop20_2022-05-03.png",
+   "date": "2022-05-03",
+   "reading": "Closed canopy; no change."
+  },
+  {
+   "file": "dop/dop20_2025-03-09.png",
+   "date": "2025-03-09",
+   "reading": "Leaf-off wood; no works at the cross."
+  },
+  {
+   "file": "dop/dop20cir_2025-03-09.png",
+   "date": "2025-03-09",
+   "reading": "Leaf-off broadleaf, evergreen group W; no hardstanding."
+  }
+ ],
+ "land_cover": "broadleaf woodland (OSM landuse=forest; deciduous wood on the 1897 sheet)",
+ "verdict": {
+  "verdict": "SENDABLE"
+ },
+ "drop_class": null,
+ "mundane": {
+  "family": "NAT",
+  "status": "OPEN-WEAK",
+  "runner_up": null,
+  "discriminator": [
+   {
+    "family": "NAT",
+    "slot": "Messtischblatt 1897",
+    "date": "1897",
+    "reading": "Deciduous wood; a contour passes the point; no symbol.",
+    "separates": "no"
+   }
+  ]
+ },
+ "cited_sources": [
+  {
+   "file": "lidar/dgm1_panel.png",
+   "reading": "150 m view: single, clean, round domed mound on otherwise smooth slope; tracks N and S."
+  },
+  {
+   "file": "lidar/dgm1_slrm_150m.png",
+   "reading": "Compact bright round high at the cross; no pit beside it."
+  },
+  {
+   "file": "NOTES.json",
+   "reading": "Registered Grabhügel (about 15 m, 1 m high) 271 m away; a different feature."
+  },
+  {
+   "file": "mtb/mtb_1897_10003608.png",
+   "reading": "Deciduous wood; no symbol at the point."
+  }
+ ],
+ "description": "Isolated round domed mound about 12 m across and 0.9 m high on a gentle wooded slope; no adjacent pit; a registered Grabhügel of similar size lies 271 m away.",
+ "alt_question": "Is this a natural knoll or a charcoal-burning platform on the slope rather than a barrow?",
+ "facts": [
+  {
+   "statement": "A registered Grabhügel of about 15 m diameter and 1 m height lies 271 m away.",
+   "source": "NOTES.json",
+   "date": "2026-10-05 register snapshot"
+  },
+  {
+   "statement": "Deciduous wood was mapped at the point in 1897.",
+   "source": "mtb/mtb_1897_10003608.png",
+   "date": "1897"
+  }
+ ],
+ "limitations": "No older DGM1 epoch. Canopy hides the ground in all DOP frames.",
+ "audit": null
+}

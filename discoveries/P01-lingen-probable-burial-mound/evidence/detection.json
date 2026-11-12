@@ -1,0 +1,42 @@
+[
+ {
+  "stage": "S_D + PROX pool, shortlist",
+  "record": {
+   "reader_verdict": "SENDABLE",
+   "final": "SENDABLE",
+   "drop_class": null,
+   "decision": "SEND",
+   "hold_reasons": [],
+   "family": "QUARRY-SPOIL",
+   "status": "OPEN-WEAK",
+   "tier": "A",
+   "terrain": "T2",
+   "district": "Emsland",
+   "mean_probability": 0.9502748250961304,
+   "model": "D_101"
+  }
+ },
+ {
+  "stage": "S_D + PROX pool, screening",
+  "record": {
+   "terrain": "T2",
+   "role": "pool",
+   "district": "Emsland",
+   "rank_in_core": 0,
+   "B": 50,
+   "model": "D_101",
+   "mean_probability": 0.9502748250961304,
+   "area_m2": 386.75,
+   "roundness": 0.946,
+   "reg_dist_m": 4746.8,
+   "s_a_drop": [],
+   "osm_known": [],
+   "in_forest": true,
+   "mastr_60m": null,
+   "mastr_400m": false,
+   "ctx_flags": [],
+   "lsp2": null,
+   "stage3": "TO_CARD"
+  }
+ }
+]

@@ -1,0 +1,101 @@
+{
+ "checked_utc": "2026-10-25T03:29:40Z",
+ "reader": "claude-opus-5-5",
+ "feature": {
+  "present": true,
+  "form": "discrete round mound with a steep, well-defined edge, isolated inside a ditch-bounded rectangular woodland plot; no comparable mound elsewhere in the 150 m view",
+  "size_m_approx": 12,
+  "relief": "local relief max 1.63 m, mean 0.24 m in the 15 m centre window (NOTES.json); strong shadow in the 150 m hillshade"
+ },
+ "lidar_epochs": "none (single DGM1 delivery 2017-03-31)",
+ "imagery": [
+  {
+   "file": "dop/dop20_2014-05-18.png",
+   "date": "2014-05-18",
+   "reading": "pine canopy over the centre, younger conifer block to the south-east; no object, dumping or excavation at the centre"
+  },
+  {
+   "file": "dop/dop20_2017-05-28.png",
+   "date": "2017-05-28",
+   "reading": "closed canopy; nothing visible at the centre"
+  },
+  {
+   "file": "dop/dop20_2020-04-05.png",
+   "date": "2020-04-05",
+   "reading": "younger conifer block south-east of the centre clear-felled, bare ground from c. 10-15 m south-east of the cross; centre still under pines, no heap or object"
+  },
+  {
+   "file": "dop/dop20_2023-06-03.png",
+   "date": "2023-06-03",
+   "reading": "dark exposure; centre under pine canopy; regrowth in the clearfell to the south-east; nothing at the centre"
+  },
+  {
+   "file": "dop/dop20_2025-03-08.png",
+   "date": "2025-03-08",
+   "reading": "thinned pines; a small pale tan patch (c. 4 x 6 m) right at the cross, consistent with the sunlit south-west face of the mound with dry litter; no structure, vehicle or fresh spoil visible; clearfell to the south-east"
+  },
+  {
+   "file": "dop/dop20cir_2025-03-08.png",
+   "date": "2025-03-08",
+   "reading": "CIR: pale non-vegetated patch at the cross amid pine crowns (red); no modern object distinguishable"
+  }
+ ],
+ "land_cover": "pine woodland in a ditch-bounded plot between arable fields, beside a wide straight modern corridor c. 60-100 m to the south-west",
+ "verdict": "SENDABLE",
+ "drop_class": null,
+ "cited_sources": [
+  {
+   "file": "lidar/dgm1_panel.png",
+   "reading": "150 m view: well-formed round mound c. 12 m with strong shadow at the cross; 500 m view: single isolated mound in a rectangular ditched plot; inland dune hummocks c. 150 m to the north; wide straight corridor to the south-west"
+  },
+  {
+   "file": "lidar/dgm1_slrm_150m.png",
+   "reading": "compact bright round anomaly c. 12 m at the cross; plot-boundary ditches c. 25-50 m to the east and south"
+  },
+  {
+   "file": "dop/dop20_2025-03-08.png",
+   "reading": "pale patch at the cross is the only ground detail visible; not identifiable as a modern object"
+  },
+  {
+   "file": "mtb/mtb_1900_10004333.png",
+   "reading": "conifer woodland with dashed tracks; hachured dune knolls c. 150-250 m to the north-west; no Hügelgrab/H.G. symbol, no Sandgrube or building at the point"
+  }
+ ],
+ "description": "A discrete round mound about 12 m across and up to c. 1.6 m high, isolated in a ditch-bounded pine plot between arable fields. No modern object stands on it in five orthophoto flights 2014-2025; the 2025 flight shows only a pale patch on its face. The 1900 Messtischblatt shows woodland here with no monument or extraction symbol.",
+ "alt_question": "Could this be a spoil or clearance heap from digging the plot ditches or from building the nearby straight corridor, or a natural sand knoll from the dune area to the north, rather than a burial mound?",
+ "facts": [
+  {
+   "statement": "Local relief at the centre reaches 1.63 m (15 m window).",
+   "source": "NOTES.json lidar.slrm_centre15m",
+   "date": "DGM1 2017-03-31"
+  },
+  {
+   "statement": "No registered Grabhügel within 300 m in the public Denkmalatlas Grabhügel snapshot.",
+   "source": "NOTES.json register_within_300m",
+   "date": "2026-10-05"
+  },
+  {
+   "statement": "No OSM objects within 30 m.",
+   "source": "NOTES.json osm",
+   "date": "card build"
+  },
+  {
+   "statement": "The conifer block south-east of the point was clear-felled between the 2017 and 2020 flights.",
+   "source": "dop/dop20_2017-05-28.png; dop/dop20_2020-04-05.png",
+   "date": "2017-2020"
+  }
+ ],
+ "limitations": "Canopy hides the ground in most frames; the 2025 pale patch at the cross could not be resolved further at 20 cm; no older DGM1 epoch; Messtischblatt georeferencing unmeasured; only one Messtischblatt edition.",
+ "audit": {
+  "final_verdict": "SENDABLE",
+  "final_drop_class": null,
+  "tier": "A",
+  "reason": "feature visible in the LiDAR panel/SLRM; tier A: discrete round mound",
+  "checked_files": [
+   "lidar/dgm1_panel.png",
+   "lidar/dgm1_slrm_150m.png"
+  ],
+  "auditor": "claude-opus-5-5 (LS-POOL-2 session)",
+  "utc": "2026-10-25T03:34:41Z"
+ }
+}

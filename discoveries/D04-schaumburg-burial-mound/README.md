@@ -63,6 +63,42 @@ Follow-up the next day:
 
 > SL-01 is now the site Liebenau-Binnen FStNr. 13; SL-05 = Hameln FStNr. 254; SL-06 = Hameln FStNr. 255.
 
+## Everything we looked at
+
+The full internal evidence card is in [`evidence/`](evidence/) ([file list](evidence/README.md)): every image and
+record the project used to decide whether to submit this location, plus what was sent to the authority.
+Coordinates are removed; nothing else is edited.
+
+**LiDAR terrain (LGLN DGM1, 1 m).** Hillshade at 150 m and 500 m, and a local relief model:
+
+![DGM1 hillshade 150 m and 500 m](evidence/lidar_dgm1_hillshade_150m_and_500m.png)
+
+<img src="evidence/lidar_dgm1_local_relief_150m.png" width="360" alt="Local relief model, 150 m">
+
+**Orthophotos (LGLN DOP20), every year available**, used to rule out modern heaps, buildings and earthworks:
+
+| 2014-07-04 | 2016-04-02 | 2018-05-08 | 2021-03-31 | 2024-05-08 | 2024-05-08 |
+|---|---|---|---|---|---|
+| <img src="evidence/dop20_2014-07-04.jpg" width="150"> | <img src="evidence/dop20_2016-04-02.jpg" width="150"> | <img src="evidence/dop20_2018-05-08.jpg" width="150"> | <img src="evidence/dop20_2021-03-31.jpg" width="150"> | <img src="evidence/dop20_2024-05-08.jpg" width="150"> | <img src="evidence/dop20cir_2024-05-08.jpg" width="150"> |
+
+**Historic map.** First-edition Messtischblatt (1899), checked for a mapped structure, pit or building at the point:
+
+<img src="evidence/messtischblatt_1899.png" width="300" alt="Messtischblatt">
+
+**The model reader's review before submission** (verbatim extracts from [`reader_review.json`](evidence/reader_review.json)):
+
+> A discrete, round, dome-shaped mound about 11 m across and about 1 m high, isolated on flat ground in pine forest.
+
+Open alternative it asked the archaeologist to weigh: *Is this mound connected with the twentieth-century rectangular earthworks and structures nearby (spoil, a blast or cover mound), or a small natural rise of the kind the 1899 form lines suggest, rather than a burial mound?*
+
+Most likely non-archaeological explanation it considered: `MODERN-OTHER` (OPEN-WEAK); verdict `SENDABLE`.
+
+**Detector output** ([`detection.json`](evidence/detection.json)): model `D_202`; mean probability 0.952; area 355 m², roundness 0.94; nearest registered burial mound 569 m away in the public register snapshot.
+
+**What the authority received** (one sheet per location, coordinate line removed):
+
+<img src="evidence/submitted_sheet.png" width="600" alt="Submitted sheet">
+
 ## What the assessment does and does not establish
 
 Assessed as previously completely unknown; site number issued 3 Nov 2026. Publication in the Fundchronik promised, not yet seen. No field visit or excavation reported.

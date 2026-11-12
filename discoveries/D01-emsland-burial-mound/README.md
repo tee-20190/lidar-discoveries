@@ -65,6 +65,42 @@ omissions and `[Fundstelle entfernt]` marks the names and numbers of already kno
 >
 > Kind regards, Thomas Kassens (district archaeologist)
 
+## Everything we looked at
+
+The full internal evidence card is in [`evidence/`](evidence/) ([file list](evidence/README.md)): every image and
+record the project used to decide whether to submit this location, plus what was sent to the authority.
+Coordinates are removed; nothing else is edited.
+
+**LiDAR terrain (LGLN DGM1, 1 m).** Hillshade at 150 m and 500 m, and a local relief model:
+
+![DGM1 hillshade 150 m and 500 m](evidence/lidar_dgm1_hillshade_150m_and_500m.png)
+
+<img src="evidence/lidar_dgm1_local_relief_150m.png" width="360" alt="Local relief model, 150 m">
+
+**Orthophotos (LGLN DOP20), every year available**, used to rule out modern heaps, buildings and earthworks:
+
+| 2014-05-18 | 2017-05-28 | 2020-04-06 | 2023-06-03 | 2025-03-08 | 2025-03-08 |
+|---|---|---|---|---|---|
+| <img src="evidence/dop20_2014-05-18.jpg" width="150"> | <img src="evidence/dop20_2017-05-28.jpg" width="150"> | <img src="evidence/dop20_2020-04-06.jpg" width="150"> | <img src="evidence/dop20_2023-06-03.jpg" width="150"> | <img src="evidence/dop20_2025-03-08.jpg" width="150"> | <img src="evidence/dop20cir_2025-03-08.jpg" width="150"> |
+
+**Historic map.** First-edition Messtischblatt (1900), checked for a mapped structure, pit or building at the point:
+
+<img src="evidence/messtischblatt_1900.png" width="300" alt="Messtischblatt">
+
+**The model reader's review before submission** (verbatim extracts from [`reader_review.json`](evidence/reader_review.json)):
+
+> A discrete round mound about 15 m across and up to c. 1.5 m high, with a hollow in its eastern flank, isolated on flat drained former moorland now under a young deciduous plantation. The mound has been left in an unplanted clearing. No modern object stands on it in five orthophoto flights 2014-2025. The 1900 Messtischblatt shows wet meadow or moor here with no monument or extraction symbol.
+
+Open alternative it asked the archaeologist to weigh: *Could this be a spoil heap from ditch digging or peat working on the former moor (with the eastern hollow as a later dig or animal burrow), rather than a burial mound?*
+
+**Detector output** ([`detection.json`](evidence/detection.json)): mean probability 0.958; area 467 m², roundness 0.94; nearest registered burial mound 1932 m away in the public register snapshot.
+
+**What the authority received:** a coordinate list with diameter and prominence for each location (this row,
+coordinates removed: [`submitted_row.json`](evidence/submitted_row.json)). No images were sent with this batch.
+
+The same mound was proposed again, independently, by the S_D + PROX detector in a later pool; that card is in
+[`evidence/second_proposal/`](evidence/second_proposal/).
+
 ## What the assessment does and does not establish
 
 Written confirmation by the district archaeologist that it is a previously unknown burial mound. No field visit, excavation, date or record number reported.

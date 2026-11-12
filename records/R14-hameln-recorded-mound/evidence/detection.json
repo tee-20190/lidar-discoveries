@@ -1,0 +1,42 @@
+[
+ {
+  "stage": "S_D + PROX pool, shortlist",
+  "record": {
+   "reader_verdict": "SENDABLE",
+   "final": "SENDABLE",
+   "drop_class": null,
+   "decision": "SEND",
+   "hold_reasons": [],
+   "family": "NAT",
+   "status": "OPEN-WEAK",
+   "tier": "A",
+   "terrain": "T1",
+   "district": "Hameln-Pyrmont",
+   "mean_probability": 0.9518322944641113,
+   "model": "D_101"
+  }
+ },
+ {
+  "stage": "S_D + PROX pool, screening",
+  "record": {
+   "terrain": "T1",
+   "role": "complex",
+   "district": "Hameln-Pyrmont",
+   "rank_in_core": 1,
+   "B": 50,
+   "model": "D_101",
+   "mean_probability": 0.9518322944641113,
+   "area_m2": 364.0,
+   "roundness": 0.947,
+   "reg_dist_m": 271.3,
+   "s_a_drop": [],
+   "osm_known": [],
+   "in_forest": true,
+   "mastr_60m": null,
+   "mastr_400m": false,
+   "ctx_flags": [],
+   "lsp2": null,
+   "stage3": "TO_CARD"
+  }
+ }
+]

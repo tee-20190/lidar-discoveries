@@ -1,0 +1,106 @@
+{
+ "checked_utc": "2026-10-26T20:51:55Z",
+ "reader": "claude-opus-5-5",
+ "feature": {
+  "present": true,
+  "form": "discrete round dome-shaped mound, isolated on flat ground",
+  "size_m_approx": 11,
+  "relief": "about 1 m (SLRM centre max 1.21 m)"
+ },
+ "lidar_epochs": "none",
+ "imagery": [
+  {
+   "file": "dop/dop20_2014-07-04.png",
+   "date": "2014-07-04",
+   "reading": "Closed conifer canopy; forest track to the north-east; nothing visible at the centre."
+  },
+  {
+   "file": "dop/dop20_2016-04-02.png",
+   "date": "2016-04-02",
+   "reading": "Closed canopy; nothing visible at the centre."
+  },
+  {
+   "file": "dop/dop20_2018-05-08.png",
+   "date": "2018-05-08",
+   "reading": "Closed canopy; nothing visible at the centre."
+  },
+  {
+   "file": "dop/dop20_2021-03-31.png",
+   "date": "2021-03-31",
+   "reading": "Thinned pine stand with felled stems; bare forest floor around the centre; no heap, pit or structure visible."
+  },
+  {
+   "file": "dop/dop20_2024-05-08.png",
+   "date": "2024-05-08",
+   "reading": "Pine stand with ground vegetation; a walled rectangular structure about 60-80 m west of the centre; nothing at the centre."
+  }
+ ],
+ "land_cover": "Pine forest (OSM landuse=forest).",
+ "verdict": {
+  "verdict": "SENDABLE"
+ },
+ "drop_class": null,
+ "mundane": {
+  "family": "MODERN-OTHER",
+  "status": "OPEN-WEAK",
+  "runner_up": {
+   "family": "NAT",
+   "status": "OPEN-WEAK"
+  },
+  "discriminator": [
+   {
+    "family": "MODERN-OTHER",
+    "slot": "first edition Messtischblatt 1899",
+    "date": "1899",
+    "reading": "Forest; a small closed form-line loop is drawn about 15-25 m east-north-east of the point, which may mark a rise here before 1899; no structure, pit or building at the point.",
+    "separates": false
+   },
+   {
+    "family": "MODERN-OTHER",
+    "slot": "aerial dop20 2021-03-31",
+    "date": "2021-03-31",
+    "reading": "Thinned stand, forest floor visible: no structure or debris on the mound.",
+    "separates": false
+   }
+  ]
+ },
+ "cited_sources": [
+  {
+   "file": "lidar/dgm1_panel.png",
+   "reading": "Isolated round mound at the centre of a forest compartment with fine east-west plough/planting furrows; a disturbed pitted area 60 m north-west; the 500 m view shows rectangular embanked structures and buildings 150-250 m to the north."
+  },
+  {
+   "file": "lidar/dgm1_slrm_150m.png",
+   "reading": "Discrete round bright mound centred in the ring."
+  },
+  {
+   "file": "mtb/mtb_1899_10004228.png",
+   "reading": "Coniferous forest with tracks; a small closed form-line loop just east-north-east of the point; another closed loop with a spot height to the north-west."
+  },
+  {
+   "file": "dop/dop20_2024-05-08.png",
+   "reading": "Walled rectangular structure 60-80 m west; nothing at the centre."
+  }
+ ],
+ "description": "A discrete, round, dome-shaped mound about 11 m across and about 1 m high, isolated on flat ground in pine forest.",
+ "alt_question": "Is this mound connected with the twentieth-century rectangular earthworks and structures nearby (spoil, a blast or cover mound), or a small natural rise of the kind the 1899 form lines suggest, rather than a burial mound?",
+ "facts": [
+  {
+   "statement": "Rectangular embanked structures and buildings stand 150-250 m north; a walled rectangular structure 60-80 m west.",
+   "source": "lidar/dgm1_panel.png; dop/dop20_2024-05-08.png",
+   "date": "2016-04-21; 2024-05-08"
+  },
+  {
+   "statement": "The 1899 sheet shows forest and a small closed form-line loop near the point.",
+   "source": "mtb/mtb_1899_10004228.png",
+   "date": "1899"
+  },
+  {
+   "statement": "Only one DGM1 delivery (2016-04-21); no epoch comparison.",
+   "source": "NOTES.json",
+   "date": "2016-04-21"
+  }
+ ],
+ "limitations": "No older DGM1 epoch. Messtischblatt georeferencing unmeasured, so the form-line loop may or may not be this mound. Canopy hides the ground in most DOP frames.",
+ "audit": null
+}

@@ -1,0 +1,106 @@
+{
+ "checked_utc": "2026-10-25T03:30:35Z",
+ "reader": "claude-opus-5-5",
+ "feature": {
+  "present": true,
+  "form": "discrete round mound with an eastern notch/hollow in its flank, isolated on otherwise flat ground in a ditch-bounded woodland plot; no comparable mound in the 500 m view",
+  "size_m_approx": 15,
+  "relief": "local relief max 1.51 m, mean 0.38 m in the 15 m centre window (NOTES.json); strong shadow in the 150 m hillshade"
+ },
+ "lidar_epochs": "none (single DGM1 delivery 2017-03-31)",
+ "imagery": [
+  {
+   "file": "dop/dop20_2014-05-18.png",
+   "date": "2014-05-18",
+   "reading": "young deciduous plantation with an unplanted grassy clearing c. 20-25 m across around the cross; no structure, heap of material or hardstanding"
+  },
+  {
+   "file": "dop/dop20_2017-05-28.png",
+   "date": "2017-05-28",
+   "reading": "clearing persists with two small dark shrubs just north-west of the cross and a few small pale specks just south-east; no structure"
+  },
+  {
+   "file": "dop/dop20_2020-04-06.png",
+   "date": "2020-04-06",
+   "reading": "leafless plantation; clearing visible; a small pale (bare soil or sand?) patch at and just south of the cross, a few metres across; no structure or vehicle"
+  },
+  {
+   "file": "dop/dop20_2023-06-03.png",
+   "date": "2023-06-03",
+   "reading": "clearing partly closed by canopy; a single tree/shrub just north-west of the cross; nothing modern visible"
+  },
+  {
+   "file": "dop/dop20_2025-03-08.png",
+   "date": "2025-03-08",
+   "reading": "leafless plantation; pale dry grass forms a horseshoe-shaped bank around a darker centre at the cross, matching the mound with its eastern notch; no structure or fresh spoil"
+  },
+  {
+   "file": "dop/dop20cir_2025-03-08.png",
+   "date": "2025-03-08",
+   "reading": "CIR: horseshoe-shaped pale ring of non-vegetated/dry ground at the cross within the plantation; no modern object"
+  }
+ ],
+ "land_cover": "young deciduous plantation (afforested former moor/wet meadow), mound in an unplanted clearing; arable fields beyond the plot ditches",
+ "verdict": "SENDABLE",
+ "drop_class": null,
+ "cited_sources": [
+  {
+   "file": "lidar/dgm1_panel.png",
+   "reading": "150 m view: well-formed round mound c. 15 m with strong shadow and an eastern hollow at the cross; 500 m view: single isolated mound on flat, ditched ground with straight field boundaries"
+  },
+  {
+   "file": "lidar/dgm1_slrm_150m.png",
+   "reading": "compact bright round anomaly c. 15 m at the cross with a small notch on its east side"
+  },
+  {
+   "file": "dop/dop20_2014-05-18.png",
+   "reading": "the mound sits in an unplanted grassy clearing inside the plantation; nothing modern on it"
+  },
+  {
+   "file": "mtb/mtb_1900_10004333.png",
+   "reading": "ruled wet meadow/moor signature with tuft symbols at the point; a dashed track passes through the ring; no Hügelgrab/H.G. symbol, no Torfstich, Sandgrube or building at the point"
+  }
+ ],
+ "description": "A discrete round mound about 15 m across and up to c. 1.5 m high, with a hollow in its eastern flank, isolated on flat drained former moorland now under a young deciduous plantation. The mound has been left in an unplanted clearing. No modern object stands on it in five orthophoto flights 2014-2025. The 1900 Messtischblatt shows wet meadow or moor here with no monument or extraction symbol.",
+ "alt_question": "Could this be a spoil heap from ditch digging or peat working on the former moor (with the eastern hollow as a later dig or animal burrow), rather than a burial mound?",
+ "facts": [
+  {
+   "statement": "Local relief at the centre reaches 1.51 m (15 m window).",
+   "source": "NOTES.json lidar.slrm_centre15m",
+   "date": "DGM1 2017-03-31"
+  },
+  {
+   "statement": "No registered Grabhügel within 300 m in the public Denkmalatlas Grabhügel snapshot.",
+   "source": "NOTES.json register_within_300m",
+   "date": "2026-10-05"
+  },
+  {
+   "statement": "OSM shows only forest land use near the point; no modern object within 30 m.",
+   "source": "NOTES.json osm",
+   "date": "card build"
+  },
+  {
+   "statement": "The mound lies in an unplanted clearing within the plantation.",
+   "source": "dop/dop20_2014-05-18.png",
+   "date": "2014-05-18"
+  },
+  {
+   "statement": "The 1900 map shows wet meadow/moor signature at the point.",
+   "source": "mtb/mtb_1900_10004333.png",
+   "date": "1900"
+  }
+ ],
+ "limitations": "The small pale patch at the cross in 2020 could not be resolved (bare sand, burrowing or minor digging); no older DGM1 epoch to test whether the eastern hollow is recent; Messtischblatt georeferencing unmeasured; only one Messtischblatt edition.",
+ "audit": {
+  "final_verdict": "SENDABLE",
+  "final_drop_class": null,
+  "tier": "A",
+  "reason": "feature visible in the LiDAR panel/SLRM; tier A: discrete round mound",
+  "checked_files": [
+   "lidar/dgm1_panel.png",
+   "lidar/dgm1_slrm_150m.png"
+  ],
+  "auditor": "claude-opus-5-5 (LS-POOL-2 session)",
+  "utc": "2026-10-25T03:34:41Z"
+ }
+}

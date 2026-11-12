@@ -1,0 +1,113 @@
+{
+ "checked_utc": "2026-10-26T20:48:36Z",
+ "reader": "claude-opus-5-5",
+ "feature": {
+  "present": true,
+  "form": "discrete round mound, smooth on the west side and irregular with small hollows on the east side, isolated on flat reclaimed ground; no other mound in the 500 m view",
+  "size_m_approx": 15,
+  "relief": "about 1.5 m (SLRM centre max 1.51 m)"
+ },
+ "lidar_epochs": "none",
+ "imagery": [
+  {
+   "file": "dop/dop20_2014-05-18.png",
+   "date": "2014-05-18",
+   "reading": "young broadleaf plantation block between arable fields; a small open grassy clearing about 15-20 m across on the centre; no structure or dumping"
+  },
+  {
+   "file": "dop/dop20_2017-05-28.png",
+   "date": "2017-05-28",
+   "reading": "plantation; clearing on the centre partly overgrown with a few pale patches; no object"
+  },
+  {
+   "file": "dop/dop20_2020-04-06.png",
+   "date": "2020-04-06",
+   "reading": "leafless plantation; the clearing on the centre shows a pale bare patch at the cross and grassy rim; no heap that differs from the LiDAR mound, no machinery or structure"
+  },
+  {
+   "file": "dop/dop20_2023-06-03.png",
+   "date": "2023-06-03",
+   "reading": "plantation in leaf; clearing on the centre with a single tree clump; nothing modern"
+  },
+  {
+   "file": "dop/dop20_2025-03-08.png",
+   "date": "2025-03-08",
+   "reading": "leafless plantation; the clearing shows a curved bank or slope on its north side matching the mound edge; no excavation or structure"
+  }
+ ],
+ "land_cover": "young broadleaf plantation block within arable fields on reclaimed former moor (OSM landuse=forest; moor or wet heath on the 1900 Messtischblatt)",
+ "verdict": {
+  "verdict": "SENDABLE"
+ },
+ "drop_class": null,
+ "mundane": {
+  "family": "QUARRY-SPOIL",
+  "status": "OPEN-WEAK",
+  "runner_up": {
+   "family": "NAT",
+   "status": "OPEN-WEAK"
+  },
+  "discriminator": [
+   {
+    "family": "QUARRY-SPOIL",
+    "slot": "aerial dop20 2014",
+    "date": "2014-05-18",
+    "reading": "mound already a grassy clearing left unplanted inside the plantation block; no fresh spoil",
+    "separates": false
+   },
+   {
+    "family": "QUARRY-SPOIL",
+    "slot": "first edition Messtischblatt 1900",
+    "date": "1900",
+    "reading": "moor or wet heath signature at the centre with a track; no pit, building or mound symbol mapped",
+    "separates": false
+   },
+   {
+    "family": "NAT",
+    "slot": "lidar slrm 150 m",
+    "date": "2017-03-31",
+    "reading": "compact round high, not the rectangular block typical of a peat-cutting remnant",
+    "separates": false
+   }
+  ]
+ },
+ "cited_sources": [
+  {
+   "file": "lidar/dgm1_panel.png",
+   "reading": "round mound about 15 m across at the centre with an irregular east side; flat ditched fields; an embanked rectangular feature about 120 m east"
+  },
+  {
+   "file": "lidar/dgm1_slrm_150m.png",
+   "reading": "compact bright round high inside the 25 m ring"
+  },
+  {
+   "file": "dop/dop20_2014-05-18.png",
+   "reading": "open clearing on the mound inside a plantation"
+  },
+  {
+   "file": "mtb/mtb_1900_10004333.png",
+   "reading": "moor or wet heath signature at the point; no symbol"
+  }
+ ],
+ "description": "A discrete round mound about 15 m across and about 1.5 m high, smooth on its west side and irregular on its east side, isolated on flat reclaimed ground. It is left as an open clearing inside a young broadleaf plantation surrounded by arable fields. The 1900 map shows moor or wet heath at the point with no symbol. No registered burial mound lies within 300 m.",
+ "alt_question": "Is this a heap of sand or spoil left from moor reclamation and ditching, or a natural sand knoll rising through former moor, rather than a burial mound?",
+ "facts": [
+  {
+   "statement": "Moor or wet heath at the point, no symbol",
+   "source": "mtb/mtb_1900_10004333.png",
+   "date": "1900"
+  },
+  {
+   "statement": "Mound left as a clearing inside the plantation",
+   "source": "dop/dop20_2014-05-18.png",
+   "date": "2014-05-18"
+  },
+  {
+   "statement": "No registered Grabhuegel within 300 m",
+   "source": "NOTES.json",
+   "date": "2026-10-05"
+  }
+ ],
+ "limitations": "Only one DGM1 delivery (no epoch comparison). The LiDAR panel and every DOP frame are labelled 'EL-06' and the panel 'LS-POOL-2', so this evidence was reused from an earlier pool's card; the coordinator should check whether this point duplicates an earlier lead. Irregular east side unexplained.",
+ "audit": null
+}

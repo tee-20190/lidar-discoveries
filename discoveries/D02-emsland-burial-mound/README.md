@@ -65,6 +65,39 @@ omissions and `[Fundstelle entfernt]` marks the names and numbers of already kno
 >
 > Kind regards, Thomas Kassens (district archaeologist)
 
+## Everything we looked at
+
+The full internal evidence card is in [`evidence/`](evidence/) ([file list](evidence/README.md)): every image and
+record the project used to decide whether to submit this location, plus what was sent to the authority.
+Coordinates are removed; nothing else is edited.
+
+**LiDAR terrain (LGLN DGM1, 1 m).** Hillshade at 150 m and 500 m, and a local relief model:
+
+![DGM1 hillshade 150 m and 500 m](evidence/lidar_dgm1_hillshade_150m_and_500m.png)
+
+<img src="evidence/lidar_dgm1_local_relief_150m.png" width="360" alt="Local relief model, 150 m">
+
+**Orthophotos (LGLN DOP20), every year available**, used to rule out modern heaps, buildings and earthworks:
+
+| 2014-05-18 | 2017-05-28 | 2020-04-05 | 2023-06-03 | 2025-03-08 | 2025-03-08 |
+|---|---|---|---|---|---|
+| <img src="evidence/dop20_2014-05-18.jpg" width="150"> | <img src="evidence/dop20_2017-05-28.jpg" width="150"> | <img src="evidence/dop20_2020-04-05.jpg" width="150"> | <img src="evidence/dop20_2023-06-03.jpg" width="150"> | <img src="evidence/dop20_2025-03-08.jpg" width="150"> | <img src="evidence/dop20cir_2025-03-08.jpg" width="150"> |
+
+**Historic map.** First-edition Messtischblatt (1900), checked for a mapped structure, pit or building at the point:
+
+<img src="evidence/messtischblatt_1900.png" width="300" alt="Messtischblatt">
+
+**The model reader's review before submission** (verbatim extracts from [`reader_review.json`](evidence/reader_review.json)):
+
+> A discrete round mound about 12 m across and up to c. 1.6 m high, isolated in a ditch-bounded pine plot between arable fields. No modern object stands on it in five orthophoto flights 2014-2025; the 2025 flight shows only a pale patch on its face. The 1900 Messtischblatt shows woodland here with no monument or extraction symbol.
+
+Open alternative it asked the archaeologist to weigh: *Could this be a spoil or clearance heap from digging the plot ditches or from building the nearby straight corridor, or a natural sand knoll from the dune area to the north, rather than a burial mound?*
+
+**Detector output** ([`detection.json`](evidence/detection.json)): mean probability 0.960; area 476 m², roundness 0.95; nearest registered burial mound 2938 m away in the public register snapshot.
+
+**What the authority received:** a coordinate list with diameter and prominence for each location (this row,
+coordinates removed: [`submitted_row.json`](evidence/submitted_row.json)). No images were sent with this batch.
+
 ## What the assessment does and does not establish
 
 Written confirmation by the district archaeologist that it is a previously unknown burial mound. No field visit, excavation, date or record number reported.

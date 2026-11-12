@@ -1,0 +1,50 @@
+{
+ "id": "LSD-9d9f04",
+ "lidar": {
+  "source": "LGLN DGM1 1 m (CC BY 4.0), newest delivery per square (LGLN index tiles, same rule as the decode mosaic)",
+  "slrm_centre15m": {
+   "max": 1.21,
+   "min": -0.28,
+   "mean": 0.21
+  },
+  "void_share_close": 0.0,
+  "epochs": [],
+  "panel": "lidar/dgm1_panel.png",
+  "slrm": "lidar/dgm1_slrm_150m.png"
+ },
+ "imagery": {
+  "source": "LGLN DOP20 (20 cm), CC BY 4.0",
+  "window_m": 160,
+  "dates": [
+   "2014-07-04",
+   "2016-04-02",
+   "2018-05-08",
+   "2021-03-31",
+   "2024-05-08"
+  ],
+  "empty": [],
+  "errors": [],
+  "cir": "2024-05-08",
+  "files": "dop/dop20_<date>.png, dop/dop20cir_<date>.png"
+ },
+ "messtischblatt": [
+  {
+   "sheet": "Meßtischblatt 1739 : Liebenau, 1899",
+   "year": "1899",
+   "file": "mtb/mtb_1899_10004228.png"
+  }
+ ],
+ "osm": {
+  "within_30m_context": [],
+  "forest_tags": [
+   "landuse=forest"
+  ],
+  "containing_landcover": [
+   "landuse=forest"
+  ],
+  "tagged_objects_in_reply": []
+ },
+ "reader_prompts": [],
+ "register_within_300m": "none",
+ "register_note": "public Denkmalatlas Grabhügel snapshot of 2026-10-05 only (the API was in maintenance; other monument types are not in it). Selection removed every candidate with a registered Grabhügel within 60 m."
+}

@@ -1,0 +1,107 @@
+{
+ "checked_utc": "2026-10-26T20:54:17Z",
+ "reader": "claude-opus-5-5",
+ "feature": {
+  "present": true,
+  "form": "discrete round dome on a plateau edge above a valley head",
+  "size_m_approx": 15,
+  "relief": "SLRM local relief max 1.87 m at centre"
+ },
+ "lidar_epochs": "none (single DGM1 delivery 2016-03-17)",
+ "imagery": [
+  {
+   "file": "dop/dop20_2013-07-08.png",
+   "date": "2013-07-08",
+   "reading": "closed mixed canopy; no object"
+  },
+  {
+   "file": "dop/dop20_2016-07-20.png",
+   "date": "2016-07-20",
+   "reading": "closed canopy; no object"
+  },
+  {
+   "file": "dop/dop20_2019-04-07.png",
+   "date": "2019-04-07",
+   "reading": "thinned conifer stand with bare-ground patches; no heap or structure at centre"
+  },
+  {
+   "file": "dop/dop20_2022-05-03.png",
+   "date": "2022-05-03",
+   "reading": "broadleaf canopy over the centre; no object"
+  },
+  {
+   "file": "dop/dop20_2025-03-09.png",
+   "date": "2025-03-09",
+   "reading": "dark mixed canopy; felled/thinned stand S; no object at centre"
+  },
+  {
+   "file": "dop/dop20cir_2025-03-09.png",
+   "date": "2025-03-09",
+   "reading": "vegetation over the centre; no bare spoil"
+  }
+ ],
+ "land_cover": "upland forest (OSM landuse=forest)",
+ "verdict": {
+  "verdict": "SENDABLE"
+ },
+ "drop_class": null,
+ "mundane": {
+  "family": "QUARRY-SPOIL",
+  "status": "OPEN-WEAK",
+  "runner_up": {
+   "family": "NAT",
+   "status": "OPEN-WEAK"
+  },
+  "discriminator": [
+   {
+    "family": "QUARRY-SPOIL",
+    "slot": "first edition Messtischblatt 1897",
+    "date": "1897",
+    "reading": "woodland at the centre, no symbol; a quarry with hachured rim is mapped ~80-90 m S at the valley head",
+    "separates": false
+   },
+   {
+    "family": "QUARRY-SPOIL",
+    "slot": "lidar newest 2016 (500 m view)",
+    "date": "2016-03-17",
+    "reading": "spoil heaps sit at the quarry rim ~75 m SSW; the dome is separate, upslope and across a hollow way, with no hollow beside it",
+    "separates": false
+   }
+  ]
+ },
+ "cited_sources": [
+  {
+   "file": "lidar/dgm1_panel.png",
+   "reading": "round dome ~15 m at centre; quarry pits and rim heaps ~75 m SSW; hollow ways"
+  },
+  {
+   "file": "lidar/dgm1_slrm_150m.png",
+   "reading": "compact bright dome at the cross"
+  },
+  {
+   "file": "mtb/mtb_1897_10003608.png",
+   "reading": "quarry mapped ~80-90 m S of the centre; no symbol at the centre"
+  }
+ ],
+ "description": "Round dome about 15 m across with about 1.9 m local relief on a forested plateau edge, about 80 m north of a quarry already mapped in 1897.",
+ "alt_question": "Could this be a spoil heap from the quarry about 80 m to the south, or a natural knoll on the plateau edge?",
+ "facts": [
+  {
+   "statement": "SLRM local relief at centre max 1.87 m",
+   "source": "NOTES.json",
+   "date": "2016-03-17"
+  },
+  {
+   "statement": "OSM screen: no tagged object within 30 m; containing land cover landuse=forest",
+   "source": "NOTES.json",
+   "date": "2026-10-26"
+  },
+  {
+   "statement": "No registered Grabhuegel within 300 m in the public Denkmalatlas Grabhuegel snapshot (2026-10-05); other monument types not screened",
+   "source": "NOTES.json",
+   "date": "2026-10-05"
+  }
+ ],
+ "limitations": "single LiDAR epoch; canopy hides the ground; Messtischblatt georeferencing unmeasured",
+ "audit": null
+}

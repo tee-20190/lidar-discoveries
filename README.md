@@ -80,9 +80,29 @@ Each confirmed site has its own page with:
 - the **label under which we submitted it**, so the authority can be asked about that exact item;
 - the **official site number**, where one has been issued (D04: Liebenau-Binnen FStNr. 13);
 - a **150 m LiDAR hillshade** of the mound, made from public terrain data anyone can download;
-- a **SHA-256 commitment** to the exact submitted coordinates (next section).
+- a **SHA-256 commitment** to the exact submitted coordinates (next section);
+- **everything we looked at** before submitting it, in its `evidence/` folder.
 
 The authorities' contact details are on their public websites. They, not we, are the source of truth.
+
+## All the evidence we looked at
+
+Every one of the 28 outcomes has an `evidence/` folder with the material the project itself used, not only what the
+authority was sent:
+
+- **Lower Saxony (D01 to D04, P01, R14, R15):** the full internal evidence card. DGM1 LiDAR hillshade at 150 m and
+  500 m, a local relief model, every LGLN orthophoto flight from 2014 to 2025 (colour and colour-infrared), the
+  first-edition Messtischblatt of 1897 to 1900, the detector's output (model, probability, size, roundness, distance to
+  the nearest registered mound), the model reader's structured review with its reading of each image and the
+  non-archaeological explanation it tested, and the sheet or list actually sent to the archaeologist.
+- **England and France (R01 to R13, O01 to O08):** the images sent with each enquiry and, where one was written, the
+  internal research dossier and its adversarial challenge, with their terrain measurements, profiles, historic maps
+  and orthophotos from 1950 onward.
+
+Coordinates, grid references, coordinate query links, internal file paths and map-tile indices are removed from every
+file. Nothing else is edited. A few dossier files are not included: third-party scans whose reuse terms do not allow
+republication (archive cadastre sheets, book and journal pages, Esri and NLS imagery). Each folder lists what it
+leaves out.
 
 ## Why exact coordinates are not published
 
@@ -94,12 +114,19 @@ the responsible authorities, which can share them with researchers.
 So that the submitted points can still be proven later, each site page carries a SHA-256 hash of the exact submitted
 coordinates plus a random salt. When the coordinates are released, the salted string can be checked against the hash.
 
+The context imagery in the `evidence/` folders (500 m terrain views, orthophotos, historic maps) is published so the
+assessments can be checked. It does not give coordinates, but someone determined could use it to find a site. All of
+these mounds are protected under the monument protection laws of their states and countries. Digging or detecting at
+them is an offence.
+
 ## Contents
 
 | Path | Content |
 |---|---|
 | [`CONTENTS.md`](CONTENTS.md) | Catalogue of all 28 positive outcomes, by tier |
-| [`discoveries/`](discoveries/) | One page for each confirmed site, plus the field-inspected probable site: assessor, verbatim reply, LiDAR view, coordinate commitment |
+| [`discoveries/`](discoveries/) | One page for each confirmed site, plus the field-inspected probable site: assessor, verbatim reply, field photo (P01), all evidence we looked at, coordinate commitment |
+| [`records/`](records/) | R01 to R15, the record additions: what was sent, internal dossiers and evidence cards |
+| [`other-outcomes/`](other-outcomes/) | O01 to O08: what was sent and internal dossiers |
 | [`FUNNEL.md`](FUNNEL.md) | Every outcome of the 178 submissions, negatives included |
 | [`VERIFICATION.md`](VERIFICATION.md) | Tier definitions and counting rules |
 | [`METHOD.md`](METHOD.md) | Data, detectors, screening and assessment |
@@ -115,7 +142,8 @@ record turned out, on our own later check of dated surveys, to have formed betwe
 ## Credit
 
 The archaeological assessments belong to the heritage authorities listed in [CONTENTS.md](CONTENTS.md). Terrain data:
-LGLN (CC BY 4.0), Environment Agency (Open Government Licence), IGN. The detectors build on ADAF (Apache-2.0 code,
+LGLN (CC BY 4.0), Environment Agency (Open Government Licence), IGN (Licence Ouverte 2.0). Orthophotos: LGLN DOP20
+(CC BY 4.0), IGN. Historic maps: SLUB Dresden / Deutsche Fotothek (Messtischblatt), IGN, BnF Gallica. The detectors build on ADAF (Apache-2.0 code,
 CC BY-SA 4.0 weights). Register data: Denkmalatlas Niedersachsen (CC BY-SA 4.0), Historic Environment Records.
 
 Contact: open an issue in this repository.

@@ -1,0 +1,14 @@
+[
+ {
+  "stage": "pool 2 (D1 detector run); internal pool code EL-08, submitted as EL-10",
+  "record": {
+   "district": "Emsland",
+   "selected_by": "top",
+   "score": 0.999992847442627,
+   "mean_probability": 0.9602128863334656,
+   "area_m2": 476.0,
+   "roundness": 0.954,
+   "nearest_record_m": 2937.8
+  }
+ }
+]

@@ -11,6 +11,13 @@ Corrections and revisions are recorded here. Earlier versions remain in the Git 
 - P01: the city archaeologist's field photograph (metadata removed) and a redacted Gmail screenshot of his reply
   showing the photo as an attachment.
 
+- All evidence we looked at, for all 28 outcomes, in an `evidence/` folder per outcome. Lower Saxony: the full
+  internal evidence cards (DGM1 hillshade 150 m and 500 m, local relief, LGLN orthophotos 2014-2025, first-edition
+  Messtischblatt, detector output, model reader review) and the sheets or lists sent to the archaeologists. England and
+  France: the images sent with each enquiry and the internal research dossiers with their images. Coordinates, grid
+  references, coordinate query links, internal paths and tile indices removed; third-party scans with restrictive
+  reuse terms left out and listed. New folders `records/` (R01-R15) and `other-outcomes/` (O01-O08).
+
 - 178 locations submitted to 22 authorities; 90 with a written assessment.
 - 4 tier-A sites (D01 to D04), 1 tier-B site (P01), 15 tier-C record additions, 8 tier-D outcomes.
 

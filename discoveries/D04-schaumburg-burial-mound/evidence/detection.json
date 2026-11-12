@@ -1,0 +1,42 @@
+[
+ {
+  "stage": "S_D + PROX pool, shortlist",
+  "record": {
+   "reader_verdict": "SENDABLE",
+   "final": "SENDABLE",
+   "drop_class": null,
+   "decision": "SEND",
+   "hold_reasons": [],
+   "family": "MODERN-OTHER",
+   "status": "OPEN-WEAK",
+   "tier": "B",
+   "terrain": "T1",
+   "district": "Nienburg (Weser)",
+   "mean_probability": 0.9515484571456909,
+   "model": "D_202"
+  }
+ },
+ {
+  "stage": "S_D + PROX pool, screening",
+  "record": {
+   "terrain": "T1",
+   "role": "complex",
+   "district": "Nienburg (Weser)",
+   "rank_in_core": 2,
+   "B": 50,
+   "model": "D_202",
+   "mean_probability": 0.9515484571456909,
+   "area_m2": 355.25,
+   "roundness": 0.941,
+   "reg_dist_m": 569.2,
+   "s_a_drop": [],
+   "osm_known": [],
+   "in_forest": true,
+   "mastr_60m": null,
+   "mastr_400m": false,
+   "ctx_flags": [],
+   "lsp2": null,
+   "stage3": "TO_CARD"
+  }
+ }
+]

@@ -1,0 +1,50 @@
+{
+ "id": "LSD-cb8412",
+ "lidar": {
+  "source": "LGLN DGM1 1 m (CC BY 4.0), newest delivery per square (decode mosaic)",
+  "slrm_centre15m": {
+   "max": 1.51,
+   "min": -0.28,
+   "mean": 0.38
+  },
+  "void_share_close": 0.0,
+  "epochs": [],
+  "panel": "lidar/dgm1_panel.png",
+  "slrm": "lidar/dgm1_slrm_150m.png"
+ },
+ "imagery": {
+  "source": "LGLN DOP20 (20 cm), CC BY 4.0",
+  "window_m": 160,
+  "dates": [
+   "2014-05-18",
+   "2017-05-28",
+   "2020-04-06",
+   "2023-06-03",
+   "2025-03-08"
+  ],
+  "empty": [],
+  "errors": [],
+  "cir": "2025-03-08",
+  "files": "dop/dop20_<date>.png, dop/dop20cir_<date>.png"
+ },
+ "messtischblatt": [
+  {
+   "sheet": "Meßtischblatt 1658 : Holte, 1900",
+   "year": "1900",
+   "file": "mtb/mtb_1900_10004333.png"
+  }
+ ],
+ "osm": {
+  "within_30m_context": [],
+  "forest_tags": [
+   "landuse=forest"
+  ],
+  "containing_landcover": [
+   "landuse=forest"
+  ],
+  "tagged_objects_in_reply": []
+ },
+ "reader_prompts": [],
+ "register_within_300m": "none",
+ "register_note": "public Denkmalatlas Grabhügel snapshot of 2026-10-05 only (the API was in maintenance; other monument types are not in it). Selection removed every candidate with a registered Grabhügel within 60 m."
+}

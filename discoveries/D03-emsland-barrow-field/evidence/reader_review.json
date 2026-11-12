@@ -1,0 +1,97 @@
+{
+ "checked_utc": "2026-10-26T20:48:36Z",
+ "reader": "claude-opus-5-5",
+ "feature": {
+  "present": true,
+  "form": "small discrete round mound on flat ground crossed by fine parallel furrows; one of several small round highs within about 100 m, including a ring-shaped mound with a central hollow about 35 m to the south",
+  "size_m_approx": 8,
+  "relief": "about 0.9 m (SLRM centre max 0.94 m)"
+ },
+ "lidar_epochs": "none",
+ "imagery": [
+  {
+   "file": "dop/dop20_2014-05-18.png",
+   "date": "2014-05-18",
+   "reading": "closed conifer (larch-type) plantation canopy over the centre; no visible object or clearing"
+  },
+  {
+   "file": "dop/dop20_2017-05-28.png",
+   "date": "2017-05-28",
+   "reading": "closed plantation canopy; nothing at centre"
+  },
+  {
+   "file": "dop/dop20_2020-04-05.png",
+   "date": "2020-04-05",
+   "reading": "plantation canopy in rows; nothing modern at centre"
+  },
+  {
+   "file": "dop/dop20_2023-06-03.png",
+   "date": "2023-06-03",
+   "reading": "closed plantation canopy; nothing at centre"
+  },
+  {
+   "file": "dop/dop20_2025-03-08.png",
+   "date": "2025-03-08",
+   "reading": "leafless larch-type plantation; centre under trees; no heap, structure or excavation"
+  }
+ ],
+ "land_cover": "conifer (larch-type) plantation in a forest block between arable fields (OSM landuse=forest)",
+ "verdict": {
+  "verdict": "SENDABLE"
+ },
+ "drop_class": null,
+ "mundane": {
+  "family": "NAT",
+  "status": "OPEN-WEAK",
+  "runner_up": {
+   "family": "AGRI-HEAP",
+   "status": "OPEN-WEAK"
+  },
+  "discriminator": [
+   {
+    "family": "NAT",
+    "slot": "lidar 500 m view",
+    "date": "2017-03-31",
+    "reading": "hummocky, irregular ground lies about 100-200 m to the south-west, but the centre and its neighbours are small discrete round mounds on otherwise flat furrowed ground",
+    "separates": false
+   },
+   {
+    "family": "AGRI-HEAP",
+    "slot": "lidar panel 150 m",
+    "date": "2017-03-31",
+    "reading": "fine parallel furrows (ploughing or forestry planting) cross the area; the mound stands above them, but no field edge or clearance line is beside it",
+    "separates": false
+   }
+  ]
+ },
+ "cited_sources": [
+  {
+   "file": "lidar/dgm1_panel.png",
+   "reading": "small round mound about 8 m across at the centre on furrowed flat ground; ring-shaped mound about 35 m south; hummocky ground to the south-west in the 500 m view"
+  },
+  {
+   "file": "lidar/dgm1_slrm_150m.png",
+   "reading": "compact bright round high at the cross; ring-shaped high with a hollow centre to the south; further small bright highs to the south-west and south-east"
+  },
+  {
+   "file": "dop/dop20_2025-03-08.png",
+   "reading": "plantation over the centre; no modern object"
+  }
+ ],
+ "description": "A small discrete round mound about 8 m across and about 0.9 m high in a conifer plantation on flat ground crossed by fine parallel furrows. Several similar small round highs lie within about 100 m, including a ring-shaped mound with a central hollow about 35 m to the south. No modern object is visible at the point in five aerial flights from 2014 to 2025. No registered burial mound lies within 300 m.",
+ "alt_question": "Could this small mound and its neighbours be natural sand hummocks, like the uneven ground to the south-west, or heaps left from clearing or planting, rather than a group of burial mounds?",
+ "facts": [
+  {
+   "statement": "Several small round highs within about 100 m of the point",
+   "source": "lidar/dgm1_slrm_150m.png",
+   "date": "2017-03-31"
+  },
+  {
+   "statement": "No registered Grabhuegel within 300 m",
+   "source": "NOTES.json",
+   "date": "2026-10-05"
+  }
+ ],
+ "limitations": "No Messtischblatt (no georeferenced sheet covers the point); only one DGM1 delivery (no epoch comparison); ground hidden under plantation canopy in all DOP frames; mound is small and low.",
+ "audit": null
+}

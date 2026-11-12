@@ -60,6 +60,42 @@ omissions and `[Fundstelle entfernt]` marks the names and numbers of already kno
 > attach a photo. On the other hand, the Plantlünne airfield lay nearby in the Second World War, so a connection with
 > it cannot be ruled out. **I will nevertheless add this mound to the monument list.**
 
+## Everything we looked at
+
+The full internal evidence card is in [`evidence/`](evidence/) ([file list](evidence/README.md)): every image and
+record the project used to decide whether to submit this location, plus what was sent to the authority.
+Coordinates are removed; nothing else is edited.
+
+**LiDAR terrain (LGLN DGM1, 1 m).** Hillshade at 150 m and 500 m, and a local relief model:
+
+![DGM1 hillshade 150 m and 500 m](evidence/lidar_dgm1_hillshade_150m_and_500m.png)
+
+<img src="evidence/lidar_dgm1_local_relief_150m.png" width="360" alt="Local relief model, 150 m">
+
+**Orthophotos (LGLN DOP20), every year available**, used to rule out modern heaps, buildings and earthworks:
+
+| 2014-03-20 | 2017-03-25 | 2020-03-28 | 2023-04-05 | 2025-04-27 | 2025-04-27 |
+|---|---|---|---|---|---|
+| <img src="evidence/dop20_2014-03-20.jpg" width="150"> | <img src="evidence/dop20_2017-03-25.jpg" width="150"> | <img src="evidence/dop20_2020-03-28.jpg" width="150"> | <img src="evidence/dop20_2023-04-05.jpg" width="150"> | <img src="evidence/dop20_2025-04-27.jpg" width="150"> | <img src="evidence/dop20cir_2025-04-27.jpg" width="150"> |
+
+**Historic map.** First-edition Messtischblatt (1897), checked for a mapped structure, pit or building at the point:
+
+<img src="evidence/messtischblatt_1897.png" width="300" alt="Messtischblatt">
+
+**The model reader's review before submission** (verbatim extracts from [`reader_review.json`](evidence/reader_review.json)):
+
+> A smooth, round, steep-sided mound about 15 m across and about 1.5 m high in a conifer strip close to a main road junction, with a faint lower ring around it in the local relief model. Woodland on the 1897 Messtischblatt.
+
+Open alternative it asked the archaeologist to weigh: *Could this be a spoil heap from road or ditch construction next to the junction, or a natural sand hummock, rather than a burial mound?*
+
+Most likely non-archaeological explanation it considered: `QUARRY-SPOIL` (OPEN-WEAK); verdict `SENDABLE`.
+
+**Detector output** ([`detection.json`](evidence/detection.json)): model `D_101`; mean probability 0.950; area 387 m², roundness 0.95; nearest registered burial mound 4747 m away in the public register snapshot.
+
+**What the authority received** (one sheet per location, coordinate line removed):
+
+<img src="evidence/submitted_sheet.png" width="600" alt="Submitted sheet">
+
 ## What the assessment does and does not establish
 
 The city archaeologist visited it and found it strongly barrow-like, and explicitly leaves a Second World War origin open. Not counted as confirmed.
