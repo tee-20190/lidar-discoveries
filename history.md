@@ -8,6 +8,8 @@ Corrections and revisions are recorded here. Earlier versions remain in the Git 
   English translation; contact details removed), gives the submission label, the official site number where one
   exists, a 150 m LiDAR hillshade, and a salted SHA-256 commitment to the exact submitted coordinates.
 - Locations are given to municipality level. Exact coordinates are withheld.
+- P01: the city archaeologist's field photograph (metadata removed) and a redacted Gmail screenshot of his reply
+  showing the photo as an attachment.
 
 - 178 locations submitted to 22 authorities; 90 with a written assessment.
 - 4 tier-A sites (D01 to D04), 1 tier-B site (P01), 15 tier-C record additions, 8 tier-D outcomes.

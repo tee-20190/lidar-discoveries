@@ -21,6 +21,20 @@ Proposed by S_D + PROX. The location was screened against the public Denkmalatla
 before it was submitted. The project owner then sent it to the responsible archaeologist with coordinates and LiDAR
 views.
 
+## Field visit
+
+Dr Lammers visited the mound in the week before 9 November 2026 and sent this photograph with his reply (camera
+timestamp 3 November 2026). It is shown downsized, with all file metadata removed.
+
+![Field photograph of P01 by Dr Dieter Lammers, 3 November 2026](field_photo_lammers_2026-11-03.jpg)
+
+*Photo: Dr Dieter Lammers, Stadtarchäologie Lingen (Ems). Reproduced as evidence of his assessment; not covered by
+this repository's CC BY licence.*
+
+The reply as it arrived in Gmail, with the photo as its second attachment:
+
+![Gmail screenshot of the reply with the photo attached](gmail_reply_with_photo_attachment.png)
+
 ## The assessment, verbatim
 
 The archaeologist's reply, as received. Contact details and the quoted earlier message are removed; `[…]` marks other
